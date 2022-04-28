@@ -13,7 +13,7 @@ library(arsenal) # helps with statistical summaries
 getwd() 
 
 # sets your working directory to simplify calls to data
-setwd("C:\\Users\\Shaunak Mukherjee\\Downloads\\Google data analytics\\") 
+setwd("C:\\....\\") 
 
 #====================================================
 # step 1: collect Data 
