@@ -379,21 +379,3 @@ counts <- aggregate(all_trips_v3$ride_length ~ all_trips_v3$usertype +
 
 #Export to CSV file for further analysis
 write.csv(all_trips_v2, "Final_data.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
