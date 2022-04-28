@@ -8,6 +8,7 @@ library(skimr) # helps to provide summary statistics
 library(dplyr) # helps with data manipulation
 library(ggplot2) #helps visualize data 
 library(arsenal) # helps with statistical summaries
+library('janitor') # helps with examining and cleaning dirty data
 
 # displays your working directory
 getwd() 
