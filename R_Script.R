@@ -266,6 +266,10 @@ all_trips_v3 %>%
             ,average_duration = mean(ride_length)) %>% 		# calculates the average duration
   arrange(usertype, day_of_week)								# sorts
 
+#======================================================
+# step 5: vizualization of data
+#======================================================
+
 # visualize the number of rides by rider type
 all_trips_v3 %>% 
   mutate(day_of_week = wday(start_time, label = TRUE)) %>% 
@@ -375,7 +379,7 @@ counts <- aggregate(all_trips_v3$ride_length ~ all_trips_v3$usertype +
                       all_trips_v3$day_of_week, FUN = mean)
 
 #=================================================
-# step 5: export summary file for further analysis
+# step 6: export summary file for further analysis
 #=================================================
 
 #Export to CSV file for further analysis
