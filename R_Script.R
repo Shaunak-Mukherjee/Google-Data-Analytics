@@ -267,7 +267,7 @@ all_trips_v3 %>%
   arrange(usertype, day_of_week)								# sorts
 
 #======================================================
-# step 5: vizualization of data
+# step 5: visualization of data
 #======================================================
 
 # visualize the number of rides by rider type
